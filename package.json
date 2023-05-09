@@ -1,6 +1,6 @@
 {
     "name": "@rbacai/client",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -50,7 +50,6 @@
     },
     "dependencies": {
         "@prisma/client": "4.13.0",
-        "@rbacai/models": "^0.0.18",
         "axios": "^1.4.0",
         "dotenv": "^16.0.3",
         "install": "^0.13.0",
