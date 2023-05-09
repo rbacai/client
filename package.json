@@ -1,6 +1,6 @@
 {
     "name": "@rbacai/client",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -11,6 +11,12 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "dependencies": {
+        "@prisma/client": "4.13.0",
+        "axios": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "npm": "^9.6.6"
+    },
     "devDependencies": {
         "@types/jest": "^29.5.1",
         "@types/node": "18.15.11",
@@ -47,12 +53,5 @@
         "semi": true,
         "trailingComma": "none",
         "bracketSpacing": true
-    },
-    "dependencies": {
-        "@prisma/client": "4.13.0",
-        "axios": "^1.4.0",
-        "dotenv": "^16.0.3",
-        "install": "^0.13.0",
-        "npm": "^9.6.6"
     }
 }
